@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load model
-model = joblib.load("axlee_failure_model.pkl")
+model = joblib.load("axleee_failure_model.pkl")
 
 @app.route('/')
 def home():
